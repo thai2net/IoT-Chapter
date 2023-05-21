@@ -18,7 +18,9 @@ network={
 }
 ```
 Replace <your_country_code> with the ISO 3166-1 alpha-2 country code for your country (e.g., US, GB, DE, etc.).
+
 Replace <your_wifi_ssid> with the name of your Wi-Fi network.
+
 Replace <your_wifi_password> with the password for your Wi-Fi network.
 
 ## Set up the Raspberry Pi
