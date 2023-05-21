@@ -11,7 +11,7 @@ docker run -d -p 1880:1880 --name mynodered nodered/node-red
 ```
 docker ps
 ```
-# To set up user authentication with username and password in Node-RED
+# To set up user authentication with user&pass in Node-RED
 ## 1. Install the Node-RED admin package
 ```
 npm install -g node-red-admin
