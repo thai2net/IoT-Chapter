@@ -30,6 +30,8 @@ vi /mosquitto/config/mosquitto.conf
 allow_anonymous false
 password_file /mosquitto/config/passwd
 ```
+Save and exit the editor 
+To save changes and exit vi, type :wq and press Enter.
 ## 4. Restart the Mosquitto Service
 ```
   pkill -f mosquitto
