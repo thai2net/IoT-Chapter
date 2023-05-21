@@ -1,7 +1,7 @@
 # To prepare and set up a Raspberry Pi
 1. Download Raspberry Pi OS: https://www.raspberrypi.org/downloads/
 2. Flash the Raspberry Pi OS onto an SD card: https://www.balena.io/etcher/) 
-**Etcher is a tool to flash the downloaded Raspberry Pi OS image onto the SD card.
+** Etcher is a tool to flash the downloaded Raspberry Pi OS image onto the SD card.
 
 ## Set up Wi-Fi
 In the "boot" partition of the flashed SD card, locate the wpa_supplicant.conf file.
