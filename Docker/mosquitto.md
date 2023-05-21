@@ -6,6 +6,7 @@ docker pull eclipse-mosquitto
 ## 2.Create a Docker Container
 ```
 docker run -d --name mosquitto -p 1883:1883 -p 9001:9001 eclipse-mosquitto
+```
 ## 3.Verify the Installation
 ```
 docker ps
