@@ -6,7 +6,7 @@ Flash the Raspberry Pi OS onto an SD card: https://www.balena.io/etcher/)
 ## Set up Wi-Fi
 In the "boot" partition of the flashed SD card, locate the wpa_supplicant.conf file.
 Open the file in a text editor and add the following lines:
-
+```
 country=<your_country_code>
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
@@ -15,7 +15,7 @@ network={
     ssid="<your_wifi_ssid>"
     psk="<your_wifi_password>"
 }
-
+```
 Replace <your_country_code> with the ISO 3166-1 alpha-2 country code for your country (e.g., US, GB, DE, etc.).
 Replace <your_wifi_ssid> with the name of your Wi-Fi network.
 Replace <your_wifi_password> with the password for your Wi-Fi network.
@@ -29,6 +29,7 @@ Replace <your_wifi_password> with the password for your Wi-Fi network.
 ## Update Raspberry Pi
 Open a terminal on the Raspberry Pi or connect via SSH.
 Run the following commands to update the Raspberry Pi OS:
-
+```
 sudo apt-get update
 sudo apt-get upgrade
+```
